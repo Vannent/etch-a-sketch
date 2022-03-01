@@ -8,6 +8,9 @@ body {
 
 .main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -18,7 +21,13 @@ body {
     width: 500px;
     height: 500px;
     display: grid;
-    border-style:initial
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    width: 80%;
 }
 
 footer {
